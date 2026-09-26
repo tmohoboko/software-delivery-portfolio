@@ -1,0 +1,2 @@
+id,type,severity,summary,status,resolution
+QA-001,Test automation,Low,SMOKE-007 exact text selector omitted the numbered step prefix,CLOSED,Scoped the locator to QA flow list items and matched Release Assessment text; rerun passed

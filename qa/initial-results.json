@@ -1,0 +1,465 @@
+{
+  "config": {
+    "argv": [
+      "/home/tmdev012/.local/share/fnm/node-versions/v22.22.0/installation/bin/node",
+      "/home/tmdev012/Reception/software-delivery-portfolio/node_modules/.bin/playwright",
+      "test"
+    ],
+    "configFile": "/home/tmdev012/Reception/software-delivery-portfolio/playwright.config.js",
+    "rootDir": "/home/tmdev012/Reception/software-delivery-portfolio/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/tmdev012/Reception/software-delivery-portfolio/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/home/tmdev012/Reception/software-delivery-portfolio/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "qa/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "smoke.spec.js",
+      "file": "smoke.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "SMOKE-001 Homepage loads",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6745,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T14:01:07.567Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2c14808d47b386fba9eb-9085cb254169ce13dd44",
+          "file": "smoke.spec.js",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "SMOKE-002 Hero heading visible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5758,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T14:01:07.707Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2c14808d47b386fba9eb-c721a2fcd03d5110123b",
+          "file": "smoke.spec.js",
+          "line": 16,
+          "column": 1
+        },
+        {
+          "title": "SMOKE-003 Manifesto visible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5449,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T14:01:14.003Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2c14808d47b386fba9eb-57e4d395af555e11329e",
+          "file": "smoke.spec.js",
+          "line": 24,
+          "column": 1
+        },
+        {
+          "title": "SMOKE-004 Capability matrix visible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5331,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T14:01:14.915Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2c14808d47b386fba9eb-452eeab1662f61e8c442",
+          "file": "smoke.spec.js",
+          "line": 31,
+          "column": 1
+        },
+        {
+          "title": "SMOKE-005 Moya Glow project card visible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5700,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T14:01:19.495Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2c14808d47b386fba9eb-a52d0377974e6a4cbb5c",
+          "file": "smoke.spec.js",
+          "line": 37,
+          "column": 1
+        },
+        {
+          "title": "SMOKE-006 Moya Glow external production link is correct",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7429,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T14:01:20.276Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2c14808d47b386fba9eb-10f08b82291c23441302",
+          "file": "smoke.spec.js",
+          "line": 46,
+          "column": 1
+        },
+        {
+          "title": "SMOKE-007 QA process section visible",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 11437,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#qa').getByText('Release Assessment', { exact: true })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('#qa').getByText('Release Assessment', { exact: true }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#qa').getByText('Release Assessment', { exact: true })\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#qa').getByText('Release Assessment', { exact: true })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('#qa').getByText('Release Assessment', { exact: true }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#qa').getByText('Release Assessment', { exact: true })\u001b[22m\n\n    at /home/tmdev012/Reception/software-delivery-portfolio/tests/smoke.spec.js:58:86",
+                    "location": {
+                      "file": "/home/tmdev012/Reception/software-delivery-portfolio/tests/smoke.spec.js",
+                      "column": 86,
+                      "line": 58
+                    },
+                    "snippet": "  56 |   await expect(page.locator('#qa h2')).toBeVisible();\n  57 |   await expect(page.locator('#qa .flow li')).toHaveCount(9);\n> 58 |   await expect(page.locator('#qa').getByText('Release Assessment', { exact: true })).toBeVisible();\n     |                                                                                      ^\n  59 | });\n  60 |\n  61 | test('SMOKE-008 Delivery lifecycle visible', async ({ page }) => {"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/tmdev012/Reception/software-delivery-portfolio/tests/smoke.spec.js",
+                        "column": 86,
+                        "line": 58
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#qa').getByText('Release Assessment', { exact: true })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('#qa').getByText('Release Assessment', { exact: true }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#qa').getByText('Release Assessment', { exact: true })\u001b[22m\n\n\n  56 |   await expect(page.locator('#qa h2')).toBeVisible();\n  57 |   await expect(page.locator('#qa .flow li')).toHaveCount(9);\n> 58 |   await expect(page.locator('#qa').getByText('Release Assessment', { exact: true })).toBeVisible();\n     |                                                                                      ^\n  59 | });\n  60 |\n  61 | test('SMOKE-008 Delivery lifecycle visible', async ({ page }) => {\n    at /home/tmdev012/Reception/software-delivery-portfolio/tests/smoke.spec.js:58:86"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T14:01:25.237Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/home/tmdev012/Reception/software-delivery-portfolio/test-results/smoke-SMOKE-007-QA-process-section-visible/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/home/tmdev012/Reception/software-delivery-portfolio/test-results/smoke-SMOKE-007-QA-process-section-visible/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/home/tmdev012/Reception/software-delivery-portfolio/test-results/smoke-SMOKE-007-QA-process-section-visible/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/tmdev012/Reception/software-delivery-portfolio/tests/smoke.spec.js",
+                    "column": 86,
+                    "line": 58
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "2c14808d47b386fba9eb-d442a134b85192d4f5f9",
+          "file": "smoke.spec.js",
+          "line": 54,
+          "column": 1
+        },
+        {
+          "title": "SMOKE-008 Delivery lifecycle visible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8047,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T14:01:27.739Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2c14808d47b386fba9eb-92ae7d440f426426b749",
+          "file": "smoke.spec.js",
+          "line": 61,
+          "column": 1
+        },
+        {
+          "title": "SMOKE-009 Mobile viewport renders without catastrophic layout failure",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6674,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T14:01:35.817Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2c14808d47b386fba9eb-1f1cd88046fdb26c7924",
+          "file": "smoke.spec.js",
+          "line": 68,
+          "column": 1
+        },
+        {
+          "title": "SMOKE-010 Primary navigation and section links work",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 8007,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T14:01:38.177Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2c14808d47b386fba9eb-7be99208c79a43c5debb",
+          "file": "smoke.spec.js",
+          "line": 85,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-26T14:01:05.841Z",
+    "duration": 40907.396,
+    "expected": 9,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

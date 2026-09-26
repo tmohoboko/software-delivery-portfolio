@@ -13,7 +13,7 @@ npm run build
 ## Smoke tests
 
 ```sh
-npx playwright install chromium
+npx playwright install chromium --no-shell
 BASE_URL=https://software-delivery-portfolio.vercel.app npm test
 ```
 
